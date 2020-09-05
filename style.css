@@ -44,12 +44,13 @@ input {
     font-weight: 600;
     float: right;
     text-align: left;
+    margin-bottom: 3px;
 }
 
 .navbar-nav li a:hover{
-    background-color: #049985;
-    border-radius: 50px;
-
+    background: none !important;
+    border-bottom: #ffffff 3px solid;
+    margin-bottom: 0;
 }
 
 .fa-bars{
