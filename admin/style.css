@@ -241,10 +241,12 @@ body{
 }
 .wrapper .main-container .adminprofile .ad{
   background: #fff;
+  position: relative;
 }
 .wrapper .main-container  .adminprofile{
   background: #fff;
-  height: 100%;
+  height: auto;
+  width: auto;
   display: flex;
   vertical-align: center;
   align-items: center;
@@ -252,6 +254,7 @@ body{
   padding:  10px;
   margin: 20px;
   border-right: 1px solid #000;
+  position: relative;
 }
 .wrapper .main-container .adminprofile .adminprofilepic{
   width: 30%;
@@ -273,6 +276,7 @@ body{
 }
 .wrapper .main-container .adminprofile .adminprofileinfo{
   width: auto;
+  position: relative;
 }
 .wrapper .main-container .adminprofile .adminprofileinfo .table-box{
   margin: 30px auto;
@@ -401,6 +405,10 @@ body{
   border-radius: 10px;
   font-size: 15px;
   text-align: center;
+}
+.wrapper .main-container .adminprofile .modal-container .modal .table-box .table-row .table-cell input:focus{
+  color: rgb(0, 0, 0);
+  background: #6fffec;
 }
 .wrapper .main-container .adminprofile .modal-container .modal .table-box .table-row .table-cell p{
   height: 25px;

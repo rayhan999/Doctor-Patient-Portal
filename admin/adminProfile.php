@@ -14,10 +14,10 @@
         <div class="main-container">
                     
             <div class="adminprofile">
-                <div class="adminprofilepic">
-                    <img src="images/ronaldo.jpg" alt="">
-                    <i class="fa fa-pencil-square" aria-hidden="true"></i>
-                    <h2>Username</h2>    
+                    <div class="adminprofilepic">
+                        <img src="images/ronaldo.jpg" alt="">
+                        <i class="fa fa-pencil-square" aria-hidden="true"></i>
+                        <h2>Username</h2>    
                     </div>
                     
                     <div class="adminprofileinfo">
